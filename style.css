@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+  .images{
+    width: 200vw;
+    max-width: 60%;
+  }
+  body{
+    background-color: burlywood;
+  }
+  
+  .sizeMe {
+    display: block;
+    padding: 10px;
+    justify-content: center;
+    font-size: 1em;
+    }
+  
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 400vw;
+    max-width: 100%;
+  } 
+  .container {
+    color: black ;
+    font-size: 1 rem;
+    margin: 10px;
+    font-family: 'Acme', sans-serif;
+    margin-top: 50px;
+  }
+  .startQuiz, .altBox {
+    text-align: center;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    }
+  
+  .startButton{
+    text-align: center;
+    width: 200px
+  } 
+  
+  label input, label span {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+  }
+  
+  label input {
+  padding-right: 10px;
+  padding-top: 5px;
+  }
+  
+  .button {
+  height: 50px;
+  width: auto;
+  text-transform: uppercase;
+  border: .5em black solid;
+  border-radius: 5px;
+  background-color: lightseagreen;
+  color: black;
+  font-family: 'Acme', sans-serif;
+  margin-top: 20px;
+  }
+  
+  
+  .questionText {
+  display: flex;
+  font-size: 1.5em;
+  }
+  .resultText{
+    display: block;
+    padding: 10px;
+    justify-content: center;
+    font-size: 1.5em;  
+  }
+  .extraText{
+    display: block;
+    padding: 10px;
+    justify-content: center;
+    font-size: 1em;
+    font-style: italic;
+    color: red;  
+  }
