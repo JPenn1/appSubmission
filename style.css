@@ -1,12 +1,15 @@
 * {
     box-sizing: border-box;
+    
   }
   .images{
     width: 200vw;
     max-width: 60%;
   }
-  body{
+  body{    
     background-color: burlywood;
+    
+    
   }
   
   .sizeMe {
@@ -28,6 +31,11 @@
     margin: 10px;
     font-family: 'Acme', sans-serif;
     margin-top: 50px;
+    width: 800vw;
+    max-width:80%;
+    height: 200vw;
+    max-height: 40%;
+    margin: 0 auto;
   }
   .startQuiz, .altBox {
     text-align: center;
@@ -36,9 +44,11 @@
     padding: 2rem;
     width: 100%;
     margin-bottom: 1rem;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     border: 1px;
+    
     }
   
   .startButton{
@@ -88,3 +98,33 @@
     font-style: italic;
     color: red;  
   }
+  @media (min-width: 1000px){
+  
+    .images{
+      width: 50%;
+      height: 50%;
+    }
+      
+  .movieBox{
+    height: 50%;
+    
+   
+  }
+
+  .sizeMe {
+    display: block;
+    padding: 10px;
+    justify-content: center;
+    font-size: 1.5em;
+    }
+
+    .questionText {
+      display: flex;
+      font-size: 2em;
+      }
+  
+  }
+
+
+
+  
