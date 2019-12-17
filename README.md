@@ -1,16 +1,11 @@
-here's the process we recommend:
 
-Refer back to the user stories we asked you to consider in a previous checkpoint. Use them to keep sight of what features your app still needs as you go along.
-Next create function stubs with pseudocode in your JavaScript.
-One by one, fully implement each function.
-Once your application is working, add CSS styling to make it look good.
 
 
 
 
 REQUIREMENTS
 
-he starting screen should have a button that users can click to start the quiz.
+the starting screen should have a button that users can click to start the quiz.
 Users should be prompted through a series of at least 5 multiple choice questions that they can answer.
 Users should be asked questions 1 after the other.
 Users should only be prompted with 1 question at a time.
