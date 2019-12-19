@@ -56,7 +56,7 @@ const STORE = [
       ],
       correctAnswer:
         "Jaws: The Revenge",
-      answerExplaination: `a New York Times explained Jaws 3-D as "It's like watching someone make regular raids on a refrigerator in search of midnight snacks"`
+      answerExplaination: `The New York Times explained Jaws 3-D as "It's like watching someone make regular raids on a refrigerator in search of midnight snacks"`
     },
     {
       question:
