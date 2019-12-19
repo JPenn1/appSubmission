@@ -13,7 +13,7 @@ const STORE = [
       answerExplaination: "This movie about a KungFu Cop and his loveable Dog was supposed to be the next Turner and Hooch"
     },
     {
-      question: 'What " E.T. ripoff", according to critics was released in 1988?',
+      question: 'What "E.T. ripoff", according to critics was released in 1988?',
       answers: [
         "They Live",
         "Mac and Me",
