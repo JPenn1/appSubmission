@@ -8,19 +8,32 @@
   }
   body{    
     background-color: burlywood;
+       
+  }
+  
+  .hideMe ul{
+    display:flex;
+    justify-content: space-between;
+        
+    
+  }
+
+  .hideMe ul li{
+    list-style: none;
+    margin: 0 auto;
     
     
   }
-  
   .sizeMe {
-    display: block;
-    padding: 10px;
+    
+    padding: 5px;
     justify-content: center;
     font-size: 1em;
+    
     }
   
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     width: 400vw;
     max-width: 100%;
@@ -28,23 +41,24 @@
   .container {
     color: black ;
     font-size: 1 rem;
-    margin: 10px;
     font-family: 'Acme', sans-serif;
-    margin-top: 50px;
+    margin-top: 0px;
     width: 800vw;
     max-width:80%;
-    height: 200vw;
+    height: 300vh;
     max-height: 40%;
     margin: 0 auto;
+    
+    
   }
   .startQuiz, .altBox {
     text-align: center;
     background-color: white;
     border-radius: 0.5rem;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     margin-bottom: 1rem;
-    margin-top: 100px;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     border: 1px;
@@ -82,38 +96,37 @@
   
   .questionText {
   display: flex;
-  font-size: 1.5em;
+  font-size: 1.2em;
   }
   .resultText{
     display: block;
-    padding: 10px;
     justify-content: center;
-    font-size: 1.5em;  
+    font-size: .8em;  
   }
   .extraText{
     display: block;
-    padding: 10px;
+    padding: 5px;
     justify-content: center;
-    font-size: 1em;
+    font-size: .8em;
     font-style: italic;
     color: red;  
   }
-  @media (min-width: 1000px){
+ 
   
     .images{
-      width: 50%;
-      height: 50%;
+      width: 25%;
+      height: 25%;
     }
-      
+
+ 
+
   .movieBox{
-    height: 50%;
-    
-   
+    height: 25%;    
   }
 
   .sizeMe {
     display: block;
-    padding: 10px;
+    
     justify-content: center;
     font-size: 1.5em;
     }

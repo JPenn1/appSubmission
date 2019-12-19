@@ -4,7 +4,7 @@ const STORE = [
     {
       question: "What led to the movie, TOP DOG, being criticized at release",
       answers: [
-        "Reno, the dog, was visibly differen than the promotional canine",
+        "Reno, the dog, was not the same as the promotional canine",
         "Time and budget concerns led to obvious outtakes being left in for time",
         "Sony Pictures cancelled the movie a week into production, delaying the final release to theater by 8 months",
         "It was released just 9 days after the Oklahoma City Bombing"
