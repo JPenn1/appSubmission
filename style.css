@@ -1,70 +1,87 @@
 * {
     box-sizing: border-box;
-    
+    padding: 0;
+    margin: 0;    
   }
   .images{
     width: 200vw;
     max-width: 60%;
   }
   body{    
+    width: 100vw;
+    height: 50vh;
     background-color: burlywood;
-   
+  
   }
   
   .hideMe ul{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
           
   }
 
   .hideMe ul li{
     list-style: none;
     margin: 0 auto;
-    font-size: .8em;
+    font-size: 15px;
     
     
   }
   .sizeMe {
-    padding: 5px;
+    
     justify-content: center;
-    font-size: 1em;
+    font-size: 15px;
   }
-  
+  header{
+   margin-bottom: 20px;
+   margin-top:20px;
+    
+    
+  }
   h1 {
-    font-size: 1.2rem;
+    
     text-align: center;
-    width: 400vw;
-    max-width: 100%;
+    margin-bottom: 10px;
+      
   } 
+
+  h3{
+    
+    padding-top: 3px;
+  }
   .container {
     color: black ;
-    font-size: 1 rem;
+    font-size: 15px;
     font-family: 'Acme', sans-serif;
-    margin-top: 0px;
-    width: 800vw;
     max-width:80%;
-    height: 100vh;
-    max-height: 40%;
+    max-height: 80%;
     margin: 0 auto;
        
+  }
+ 
+  .questionText{
+    padding: 0;
+    margin: 0;
   }
   .startQuiz, .altBox {
     text-align: center;
     background-color: white;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    width: 100%;
-    margin-bottom: 1rem;
-    margin-top: 5px;
+    padding: 0;
+    margin: 0 auto;
+    width: 80vw;
+    margin-bottom: 3px;
+    margin-top:3px; 
     margin-left: auto;
     margin-right: auto;
     border: 1px;
     
     }
+
   
   .startButton{
     text-align: center;
-    width: 200px
+    width: 200px;
+    padding: 10px;
   } 
   
   label input, label span {
@@ -74,7 +91,7 @@
   }
   
   label input {
-  padding-right: 10px;
+  padding-right: 5px;
   padding-top: 5px;
   }
   
@@ -87,69 +104,187 @@
   background-color: lightseagreen;
   color: black;
   font-family: 'Acme', sans-serif;
-  margin-top: 20px;
+  margin-top: 10px;
+  padding: 10px;
   }
   
   
   .questionText {
   display: flex;
-  font-size: 1.1em;
+  font-size: 20px;
   color:salmon;
   font-weight: 500;
   }
   .resultText{
     display: block;
     justify-content: center;
-    font-size: .8em;  
+    font-size: 15px;  
   }
   .extraText{
     display: block;
-    padding: 5px;
+    padding: 4px;
     justify-content: center;
-    font-size: .8em;
+    font-size: 12px;
     font-style: italic;
     color: red;  
   }
  
   .opening-image{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
   }
     .images{
-      width: 15%;
-      height: 15%;
+      width: 100%;
+      height: 100%;
     }
 
  
 
-  .movieBox{
-    height: 25%;    
+
+
+  @media screen and (min-width: 425px){
+    .opening-image{
+      width: 80%;
+      height: 80%;
+    }
+        
+    .images{
+      width: 80%;
+      height: 80%;
+    }
+    .questionText {
+      display: flex;
+      font-size: 20px;
+      color:salmon;
+      font-weight: 500;
+      }
+    .resultText{
+        display: block;
+        justify-content: center;
+        font-size: 15px;  
+      }
+    .extraText{
+        display: block;
+        padding: 4px;
+        justify-content: center;
+        font-size: 12px;
+        font-style: italic;
+        color: red;  
+      }
+    .hideMe ul li{
+        list-style: none;
+        margin: 0 auto;
+        font-size: 15px;
+              
+      }
+    .sizeMe {
+        padding: 2px;
+        justify-content: center;
+        font-size: 15px;
+      }
+  
+    .questionText {
+        display: flex;
+        font-size: 20px;
+        }  
+
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 700px) {
+    
+    .questionText {
+      display: flex;
+      font-size: 25px;
+      color:salmon;
+      font-weight: 500;
+      }
+    .resultText{
+        display: block;
+        justify-content: center;
+        font-size: 20px;  
+      }
+    .extraText{
+        display: block;
+        padding: 4px;
+        justify-content: center;
+        font-size: 15px;
+        font-style: italic;
+        color: red;  
+      }
+
+    .images{
+      width: 40%;
+      height: 40%;
+    }
+    
+    
     .hideMe ul li{
       list-style: none;
       margin: 0 auto;
-      font-size: 1.2em;
+      font-size: 20px;
             
     }
     .sizeMe {
-      padding: 5px;
+      padding: 2px;
       justify-content: center;
-      font-size: 1.2em;
+      font-size: 20px;
     }
 
-    .questionText {
-      display: flex;
-      font-size: 1.3em;
-      }
-      .images{
-        width: 25%;
-        height: 25%;
-      }
     
-  
+    
   }
+  @media screen and (min-width: 850px) {
 
 
+  .opening-image{
+    width: 60%;
+    height: 60%;
+  }
+  .images{
+    width: 30%;
+    height: 30%;
+  }
+  .questionText {
+    display: flex;
+    font-size: 30px;
+    color:salmon;
+    font-weight: 500;
+    }
+  .resultText{
+      display: block;
+      justify-content: center;
+      font-size: 25px;  
+    }
+  .extraText{
+      display: block;
+      padding: 4px;
+      justify-content: center;
+      font-size: 20px;
+      font-style: italic;
+      color: red;  
+    }
+  .hideMe ul li{
+      list-style: none;
+      margin: 0 auto;
+      font-size: 20px;
+            
+    }
+  .sizeMe {
+      padding: 2px;
+      justify-content: center;
+      font-size: 25px;
+    }
 
-  
+  .questionText {
+      display: flex;
+      font-size: 30px;
+      } 
+   
+}
+
+@media screen and (min-width: 1300px) {
+  .images{
+    width: 25%;
+    height: 30%;
+  }
+}

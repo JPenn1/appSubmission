@@ -6,7 +6,7 @@ const STORE = [
       answers: [
         "Reno, the dog, was not the same as the promotional canine",
         "Time and budget concerns led to obvious outtakes being left in for time",
-        "Sony Pictures cancelled the movie a week into production, delaying the final release to theater by 8 months",
+        "The movie was delayed 8 month after original release date",
         "It was released just 9 days after the Oklahoma City Bombing"
       ],
       correctAnswer: "It was released just 9 days after the Oklahoma City Bombing",
@@ -83,7 +83,7 @@ const STORE = [
     if (questionNumber < STORE.length) {
       return createThing(questionNumber);
     } else {
-      $('.questionBox').hide();
+      $('.questionBox').hide();      
       finalScore();
       $('.questionNumber').text(6);
     }
@@ -149,10 +149,9 @@ const STORE = [
     let fieldSelector = $(formMaker).find('fieldset');
   
     STORE[questionIndex].answers.forEach(function (answerValue, answerIndex) {
-      $(`<label class="sizeMe" for="${answerIndex}">
+      $(`<label class="sizeMe" type="radio" for="${answerIndex}">
           <input class="radio" type="radio" id="${answerIndex}" value="${answerValue}" name="answer" required>
-          <span>${answerValue}</span>
-        </label>
+          <span>${answerValue}</span><br>
         `).appendTo(fieldSelector);
     });
     $(`<button type="submit" class="submitButton button"> Submit</button > `).appendTo(fieldSelector);
